@@ -33,7 +33,7 @@ The first excel table only have information about dismissal in the period. There
 We received two fact tables that are not in usual database format, for examples, area aren't represent by area ID (foreign key) and a dimension table describing this area id (now primary key). To link both tables, it were build a calendar table using the dismissal tables and single column table with areas to be the link between fact tables.
 There was also a third table received that indicated turnover by year which it was used as calculus reference.
 The schema can be seen as following:
-<a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/schema.png" /></a>
+<a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Schema.png" /></a>
 
 
 ... <em> under construction </em>
