@@ -16,16 +16,24 @@ People Analytics not only involves Human Resources, but also involves Data Analy
 ### Business understanding
 Only a few information was passed on to this data which are:
 <ul>
-<li> The business is a chemistry industry </li>
-<li> It has around 680 employees </li>
-<li> There are 3 major business sectors, A, B, and C </li>
-<li> Business A is most important sector </li>
-<li> The company has more than 30 years </li>
+<li> The business is a chemistry industry; </li>
+<li> It has around 680 employees; </li>
+<li> There are 3 major business sectors, A, B, and C; </li>
+<li> Business A is most important sector; </li>
+<li> The company has more than 30 years. </li>
 </ul>
 
 ## Data Analysis
-Gathering information from ERP called 'Senior Sistemas', it was able to retrieve dismissal from 2019 to June 2022 by employee's ID with the area, age in dismissal, time in company, initiative, admission date, and dismissal date in an excel table. Furthermore, it was gathered information about employees number by year by area in another excel table
+Gathering information from ERP called 'Senior Sistemas', it was able to retrieve dismissal from 2019 to June 2022 by employee's ID with the area, age in dismissal, time in company, initiative, admission date, and dismissal date in an excel table. Furthermore, it was gathered information about employees number by year by area in another excel table.
 
 ### Data preparation and modeling
+
+Importing a excel table to PowerBi may require changing the encoding or program languange to recognize decimals, dates and names correctly. No problem wass
+The first excel table only have information about dismissal in the period. There wasn't missing data, it had variations of the same thing, as area label like "Operation" and "Operations".
+We received two fact tables that are not in usual database format, for examples, area aren't represent by area ID (foreign key) and a dimension table describing this area id (now primary key). To link both tables, it were build a calendar table using the dismissal tables and single column table with areas to be the link between fact tables.
+There was also a third table received that indicated turnover by year which it was used as calculus reference.
+The schema can be seen as following:
+<a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/schema.png" /></a>
+
 
 ... <em> under construction </em>
