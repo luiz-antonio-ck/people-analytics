@@ -28,4 +28,4 @@ Gathering information from ERP called 'Senior Sistemas', it was able to retrieve
 
 ### Data preparation and modeling
 
-...
+... <em> under construction </em>
