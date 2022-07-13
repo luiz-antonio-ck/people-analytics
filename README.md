@@ -38,5 +38,31 @@ There was also a third table received that indicated turnover by year which it w
 The schema can be seen as following:
 <a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Schema.png" /></a>
 
+## Results found
+Dismissal over time, area with most resign, 2020 it was the good bye of old workers
+### Dismissal over time
+The year of 2020 was the hardest year, especially second trimester with 70 dismissal. For reference, combining the entire years of 2019 and 2021, there are **92** dismissal.
+Employees:
+|Start|Finish|***Dismissal***|Admission|
+|-----|------|---------|---------|
+|719|632|***110***|23|
+
+Graphically we can see this:
+
+<a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Dismissal_over_time.png" /></a>
+
+First trimester -> 21 dismissal
+Second trimester -> 70 dismissal
+
+It also broken down the hypotheses that in 2022 the enterprise was firing up too much, there is no significant increase in the line.
+
+### Business A, the most resigned area
+
+After knowing the business A is most important area of the company, it is a bad sign to see as the most resigned area. This area has 21 of 54 (38,9%) resign within this period, even having only at average 23% of company's employees. This a strong alert to check why people are resigning.
+
+<img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Business_A.gif" alt="" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
+
+
+
 
 ... <em> under construction </em>
