@@ -28,20 +28,22 @@ Gathering information from ERP called 'Senior Sistemas', it was able to retrieve
 
 ### Data preparation and modeling
 
-Importing a excel table to PowerBi may require changing the encoding or program languange to recognize decimals, dates and names correctly. No problem wass
-The first excel table only have information about dismissal in the period. There wasn't missing data, it had variations of the same thing, as area label like "Operation" and "Operations".
+Importing an excel table to PowerBi may require changing the encoding or program language to recognize decimals, dates, and names correctly. 
+The first excel table only has information about dismissal in the period. There wasn't missing data, it had variations of the same thing, as area labels like "Operation" and "Operations".
 
-We received two fact tables that are not in usual database format, for examples, area aren't represent by area ID (foreign key) and a dimension table describing this area id (now primary key). To link both tables, it were build a calendar table using the dismissal tables and single column table with areas to be the link between fact tables.
+We received two fact tables that are not in the usual database format, for example, areas aren't represented by area ID (foreign key) and a dimension table describing this area id (now primary key). To link both tables, it was built a calendar table using the dismissal tables and a single-column table with areas to be the link between fact tables.
 
-There was also a third table received that indicated turnover by year which it was used as calculus reference.
+There was also a third table received that indicated turnover by year which was used as a calculus reference.
 
-The schema can be seen as following:
+The schema can be seen as follows:
+
 <a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Schema.png" /></a>
 
 ## Results found
 Dismissal over time, area with most resign, 2020 it was the good bye of old workers
 ### Dismissal over time
-The year of 2020 was the hardest year, especially second trimester with 70 dismissal. For reference, combining the entire years of 2019 and 2021, there are **92** dismissal.
+The year 2020 was the hardest year, especially the second trimester with 70 dismissals. For reference, combining the entire years of 2019 and 2021, there are **92** dismissals.
+
 Employees:
 |Start|Finish|***Dismissal***|Admission|
 |-----|------|---------|---------|
@@ -51,18 +53,18 @@ Graphically we can see this:
 
 <a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Dismissal_over_time.png" /></a>
 
-First trimester -> 21 dismissal
-Second trimester -> 70 dismissal
+First trimester -> 21 dismissals
+Second trimester -> 70 dismissals
 
-It also broken down the hypotheses that in 2022 the enterprise was firing up too much, there is no significant increase in the line.
+It also breaks down the hypothesis that in 2022 the enterprise was firing up too much, and there is no significant increase in the line.
 
 ### Business A, the most resigned area
 
-After knowing the business A is most important area of the company, it is a bad sign to see as the most resigned area. This area has 21 of 54 (38,9%) resign within this period, even having only at average 23% of company's employees. This a strong alert to check why people are resigning.
+After knowing the business A is the most key area of the company, it is a bad sign to see as the most resigned area. This area has 21 of 56 (37,5%) resign within this period, even having only an average of 23% of the company's employees. This is a strong alert to check why people are resigning.
 
 <img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Business_A.gif" alt="" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 
 
 
-... <em> under construction </em>
+... <em> under construction and not reviewed </em>
