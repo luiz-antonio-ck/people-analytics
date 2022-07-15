@@ -1,16 +1,16 @@
 # Turnover analysis
-Turnover analysis from 2019 to June, 2022 of a Brazillian chemistry industry. 
+Turnover analysis from 2019 to June 2022 of a Brazilian chemistry industry. 
 
 ## Summary
-This project was designed to check a hypothesis of an increased company's dismiss over time. To confirm and to find new information, it was gathered employee's dismisses information from company's ERP such as time in company, age in dismiss, sector and initiative. The tool to analyses the data was PowerBi. After modeling and fixing data corrections, a dashboard was created, and some results were found. It was found an increased dismissed caused by COVID-19 and a high resign ration in 'Business A'.
+This project was designed to check a hypothesis of an increased company's dismissal over time. To confirm and to find new information, it was gathered employee dismisses information from the company's ERP such as time in the company, age in dismiss, sector and initiative. The tool to analyze the data was PowerBi. After modeling and fixing data corrections, a dashboard was created, and some results were found. It was found an increased dismissal caused by COVID-19 and a high resignation ration in 'Business A'.
 
 <a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/dashboard.png" /></a>
 
 ## Background
-This report was made for a task in people analytics subject of an MBA course; therefore, this data is a fraction of the company's lifetime, real and made to be anonymous about the company and companies dismisses. There is no reference that can link to a person or recognize the company.
+This report was made for a task in people analytics subject of an MBA course; therefore, this data is a fraction of the company's lifetime, real and made to be anonymous about the company and companies dismisses. There is no reference that can link to a person or recognize the company. This project was later shown at company meeting.
 
 ## Business Case
-The main goal of this research was to find out about turnover rates and the causes. The HR team is not looking for individual culprits but problematic areas, leadership, time in company metrics, and age metrics that relate to the rates. 
+The main goal of this research was to find out about turnover rates and the causes. The HR team is not looking for individual culprits but any problematic areas, problematic cultural fitness, time in company metrics, and age metrics that relate to the rates. 
 People Analytics not only involves Human Resources, but also involves Data Analysis and Finance, or at least a business understanding instead of Finance.
 
 ### Business understanding
@@ -28,19 +28,22 @@ Gathering information from ERP called 'Senior Sistemas', it was able to retrieve
 
 ### Data preparation and modeling
 
-Importing an excel table to PowerBi may require changing the encoding or program language to recognize decimals, dates, and names correctly. 
+Three tables were imported to PowerBI. Importing an excel table to PowerBi may require changing the encoding or program language to recognize decimals, dates, and names correctly. No problem with encoding has been found due to work in the same language.
+
 The first excel table only has information about dismissal in the period. There wasn't missing data, it had variations of the same thing, as area labels like "Operation" and "Operations".
 
-We received two fact tables that are not in the usual database format, for example, areas aren't represented by area ID (foreign key) and a dimension table describing this area id (now primary key). To link both tables, it was built a calendar table using the dismissal tables and a single-column table with areas to be the link between fact tables.
+The second tables contain most of the information such as employee ID, age in dismissal, worked time, dismissal requester, area, sub-area, admission date, and dismissal date. Only half of the sub-area has information, thus ignored in the analysis.
 
-There was also a third table received that indicated turnover by year which was used as a calculus reference.
+The third table received indicated turnover by year which was used as a calculus reference.
+
+All tables are facts tables, and they are queried tables. This was a problem in crossing information. For example, areas should be represented by area ID (foreign key) not the actual name and receive a dimension table describing this area id (now primary key). To link both tables, it was built a calendar table using the dismissal tables and a single-column table with areas to be the link between fact tables
 
 The schema can be seen as follows:
 
 <a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Schema.png" /></a>
 
 ## Results found
-Dismissal over time, area with most resign, 2020 it was the good bye of old workers
+Dismissal over time, area with most resign, 2020 it was the goodbye of old workers
 ### Dismissal over time
 The year 2020 was the hardest year, especially the second trimester with 70 dismissals. For reference, combining the entire years of 2019 and 2021, there are **92** dismissals.
 
