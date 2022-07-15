@@ -23,6 +23,9 @@ Only a few information was passed on to this data which are:
 <li> The company has more than 30 years. </li>
 </ul>
 
+### Turnover calculus in dashboard
+Normally, turnover considers admission and dismissals in the calculus, in this dashboard, it was only considered dismissal due to the objective.
+
 ## Data Analysis
 Gathering information from ERP called 'Senior Sistemas', it was able to retrieve dismissal from 2019 to June 2022 by employee's ID with the area, age in dismissal, time in company, initiative, admission date, and dismissal date in an excel table. Furthermore, it was gathered information about employees number by year by area in another excel table.
 
