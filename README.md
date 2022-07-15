@@ -4,7 +4,7 @@ Turnover analysis from 2019 to June 2022 of a Brazilian chemistry industry.
 ## Summary
 This project was designed to check a hypothesis of an increased company's dismissal over time. To confirm and to find new information, it was gathered employee dismisses information from the company's ERP such as time in the company, age in dismiss, sector and initiative. The tool to analyze the data was PowerBi. After modeling and fixing data corrections, a dashboard was created, and some results were found. It was found an increased dismissal caused by COVID-19 and a high resignation ration in 'Business A'.
 
-<a><img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/dashboard.png" /></a>
+<img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Turnover_analysis.gif" alt="" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
 ## Background
 This report was made for a task in people analytics subject of an MBA course; therefore, this data is a fraction of the company's lifetime, real and made to be anonymous about the company and companies dismisses. There is no reference that can link to a person or recognize the company. This project was later shown at company meeting.
