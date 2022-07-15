@@ -60,11 +60,34 @@ It also breaks down the hypothesis that in 2022 the enterprise was firing up too
 
 ### Business A, the most resigned area
 
-After knowing the business A is the most key area of the company, it is a bad sign to see as the most resigned area. This area has 21 of 56 (37,5%) resign within this period, even having only an average of 23% of the company's employees. This is a strong alert to check why people are resigning.
+After knowing the ‘business A’ is the most key area of the company, it is a bad sign to see as the most resigned area. This area has 21 of 56 (37,5%) resign within this period, even having only an average of 23% of the company's employees. This is a strong alert to check why people are resigning.
 
 <img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Business_A.gif" alt="" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
+### Pandemic impact
+First, let’s define here 2020 and 2021 as pandemic years. In the year 2021, dismissals numbers are less than number of years of 2019, so there isn’t a significant impact perceived.  There were 44 dismissals and 49 admissions, it may indicate a good year and a good adaptation to the pandemic.
 
+In the year 2020, it is clear a great impact in company operations; company may had achieved a new record in dismissals.  Aggregating employees by years in company in group, we found out that the group with “more than 10 years” was the most affected. Perhaps, forced retirement or decrease in paycheck costs, but no data to support any hypothesis about company’s taken(achieved) strategy.
 
+<img src="https://github.com/luiz-antonio-ck/people-analytics/blob/main/Turnover_2020.gif" alt="" style="max-width: 100%; display: inline-block;" data-target="animated-image.originalImage">
 
-... <em> under construction and not reviewed </em>
+## What to do with all these metrics and findings?
+
+After a group discussion in class, a plan was prepared to reduce company’s dismissals.
+This plan was prepared to improve human resources process that it didn't exist or was outdated. As only a few persons work at this company the plan was summarized to these actions:
+
+<ul>
+<li> Implement discussed was to ask those who are resigning why there are doing formally as process; </li>
+<li> Learn best practices for employee journey; </li>
+<li> Train employees and leadership for these best practice; </li>
+<li> Build a ‘persona’ for each area;  </li>
+<li> Research and to define area culture; </li>
+<li> Train leadership to improve cultural fit recognition. </li>
+</ul>
+
+The first area to receive these actions is ‘Business A’ due to company’s importance.
+
+## What's next?
+
+Monitoring turnover, especially in targeted area is key to check plan’s effectiveness.
+It was established to review the turnover every three months.
